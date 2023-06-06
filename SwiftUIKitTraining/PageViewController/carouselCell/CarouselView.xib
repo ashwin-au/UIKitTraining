@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CarouselView" reuseIdentifier="CarouselView" id="wOD-hP-WMj" customClass="CarouselView" customModule="SwiftUIKitTraining" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="255"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lgk-36-LjE">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="255"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="75" translatesAutoresizingMaskIntoConstraints="NO" id="zuI-09-Dlp">
+                        <rect key="frame" x="5" y="0.0" width="381" height="255"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zuI-09-Dlp" firstAttribute="leading" secondItem="lgk-36-LjE" secondAttribute="leading" constant="5" id="9M5-Y6-fa4"/>
+                    <constraint firstAttribute="bottom" secondItem="zuI-09-Dlp" secondAttribute="bottom" id="FkO-Nm-fiE"/>
+                    <constraint firstAttribute="trailing" secondItem="zuI-09-Dlp" secondAttribute="trailing" constant="5" id="J6h-CW-3aa"/>
+                    <constraint firstItem="zuI-09-Dlp" firstAttribute="top" secondItem="lgk-36-LjE" secondAttribute="top" id="mch-Fq-7Mi"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="391" height="255"/>
+            <point key="canvasLocation" x="-31.297709923664122" y="-26.408450704225352"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="75" width="720" height="480"/>
+    </resources>
+</document>
